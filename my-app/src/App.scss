@@ -1,0 +1,41 @@
+.App {
+text-align: center;
+
+&__header {
+padding: 32px;
+background-color: #0770e3;
+color: #ffffff;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+
+@media (max-width: 768px) {
+  padding: 24px;
+}
+}
+
+&__header-inner {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+&__main {
+padding: 40px;
+max-width: 1200px;
+margin: 0 auto;
+
+
+@media (max-width: 768px) {
+  padding: 16px;
+}
+
+
+}
+
+&__heading {
+margin-bottom: 16px;
+}
+
+&__text {
+margin-bottom: 16px;
+}
+}
